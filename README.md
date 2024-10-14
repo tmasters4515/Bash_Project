@@ -17,7 +17,7 @@ Help message
 # Usage 
 The basic syntax is as follows
 
-./file_permission_manager.sh [-o user:group] [-p permissions] file_or_directory
+./file_perm_manager.sh [-o user:group] [-p permissions] file_or_directory
 
 # Options
 -o user:group : Change ownership of specified file or directory
@@ -27,14 +27,14 @@ The basic syntax is as follows
 -h : Display help information
 
 # Examples
-Change ownership: ./file-permission_manager.sh -o newuser:newgroup testfile.txt
+Change ownership: ./file-perm_manager.sh -o newuser:newgroup testfile.txt
 
-Change Permissions: ./file_permission_manager.sh -p 644 testfile.txt
+Change Permissions: ./file_perm_manager.sh -p 644 testfile.txt
 
-Change Both: ./file_permission_manager.sh -o newuser:newgroup -p 755 testfile.txt
+Change Both: ./file_perm_manager.sh -o newuser:newgroup -p 755 testfile.txt
 
 Show Help:
-./file_permission_manager -h
+./file_perm_manager -h
 
 # Error Handling
 The script checks for the following:
